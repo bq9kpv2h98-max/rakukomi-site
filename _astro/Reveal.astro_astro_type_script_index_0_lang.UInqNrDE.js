@@ -1,0 +1,1 @@
+if(!matchMedia("(prefers-reduced-motion: reduce)").matches){const r=new IntersectionObserver(e=>e.forEach(s=>{s.isIntersecting&&(s.target.classList.add("is-visible"),r.unobserve(s.target))}),{threshold:.15});document.querySelectorAll(".reveal").forEach(e=>{e.classList.add("is-ready"),r.observe(e)})}
